@@ -1,0 +1,44 @@
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+root - INFO - Bot starting
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:13:22,033 - root - INFO - Bot starting
+2020-01-12 22:15:42,273 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:15:55,461 - root - INFO - Bot starting
+2020-01-12 22:17:20,762 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:27:16,630 - root - INFO - Bot starting
+2020-01-12 22:28:57,470 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:29:00,410 - root - INFO - Bot starting
+2020-01-12 22:41:32,163 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:41:37,885 - telegram.ext.updater - WARNING - Exiting immediately!
+2020-01-12 22:41:40,628 - root - INFO - Bot starting
+2020-01-12 22:50:41,565 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:50:47,957 - root - INFO - Bot starting
+2020-01-12 22:50:56,688 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\develop\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\develop\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 33, in talk_to_me
+    update.message.chat.first_name, update.message.chat.id, update.message.text, update.message.language_code)  # возврат данных в лог username, id чата, сообщение
+AttributeError: 'Message' object has no attribute 'language_code'
+2020-01-12 22:54:23,361 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:54:31,121 - root - INFO - Bot starting
+2020-01-12 22:54:40,855 - root - INFO - User: Heoderer, Chat id: 134644910, Message: Привет
+2020-01-12 22:56:30,107 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:56:35,760 - root - INFO - Bot starting
+2020-01-12 22:56:46,302 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\develop\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\develop\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 33, in talk_to_me
+    update.message.chat.id, update.message.text, update.message.chat.first_name, update.message.language_code)  # возврат данных в лог username, id чата, сообщение
+AttributeError: 'Message' object has no attribute 'language_code'
+2020-01-12 22:58:42,904 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-12 22:58:49,722 - root - INFO - Bot starting
+2020-01-12 22:59:10,691 - root - INFO - User: Heoderer, Chat id: 134644910, Message: Hey, First_name: Heoderer
+2020-01-12 23:00:07,022 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
