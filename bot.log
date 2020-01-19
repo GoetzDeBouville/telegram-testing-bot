@@ -42,3 +42,6 @@ AttributeError: 'Message' object has no attribute 'language_code'
 2020-01-12 22:58:49,722 - root - INFO - Bot starting
 2020-01-12 22:59:10,691 - root - INFO - User: Heoderer, Chat id: 134644910, Message: Hey, First_name: Heoderer
 2020-01-12 23:00:07,022 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2020-01-19 18:03:53,649 - root - INFO - Bot starting
+2020-01-19 18:04:20,880 - root - INFO - User: Heoderer, Chat id: 134644910, Message: Hello, First_name: Heoderer
+2020-01-19 18:04:54,043 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
